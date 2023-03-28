@@ -1,13 +1,16 @@
 # CW Block 24 Project 
 
 ## Project Code : rhetorical-cub-8075
-> Project Name : **Amazon.com**,   
+> Project Name : **AVIRA @ Your DoorStep**,   
 > IA Manager : **Somyakant Mohapatra**, 
 > Project By : **Piyush Sharma**
 > Student Code : **fp09_018**
 
-# Getting Started
+## logo:
+  ![At your DoorStep](https://user-images.githubusercontent.com/118152296/228350847-ce65eeaa-6d2d-4fe8-b782-7b0e967f7de5.png)
 
+# Getting Started
+**AVIRA @ Your DoorStep** is an E-comerce Website inspired by Amazon.com.
 Amazon was founded on July 5, 1994, by Jeff Bezos, who chose the Seattle area for its abundance of technical talent, as Microsoft was in the area.
 Ecommerce is a complex business. It involves many edge cases and a solid system architecture. This project is simply a demo demonstrating basic features which is only the tip of an iceberg. 
 
