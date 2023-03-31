@@ -7,7 +7,8 @@
 > Student Code : **fp09_018**
 
 ## logo:
-  ![At your DoorStep](https://user-images.githubusercontent.com/118152296/228350847-ce65eeaa-6d2d-4fe8-b782-7b0e967f7de5.png)
+![logo 1](https://user-images.githubusercontent.com/118152296/228675298-09f8a4d1-e835-47cc-9e30-7f8c87ce8676.png)
+
 
 # Getting Started
 **AVIRA @ Your DoorStep** is an E-comerce Website inspired by Amazon.com.
