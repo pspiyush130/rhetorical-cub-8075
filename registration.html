@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== Iconscout CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    
+    <link rel="icon" href="./logo.png" />
+    <link rel="stylesheet" href="Register-Login.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <title>Online Shopping - Register</title>
+  </head>
+  <body>
+ <!-- Nav-Bar -->
+ <header class="header">
+  <a style="margin-left: 27px;cursor:pointer;" href="index.html" class="logo"><img src="./logo.png" alt="logo"></a>
+  <nav>
+    
+          
+    
+  <div class="nav-last">
+  <div>
+    <a href="">
+      <img
+        id="svg"
+        src="https://www.svgrepo.com/show/198180/user-profile.svg"
+        alt=""
+      />
+    </a>
+  
+     <div class="dropdown">
+      <button class="dropbtn">Profile</button>
+      <div class="dropdown-content">
+        <h3>Welcome</h3>
+        <p>To access account and mange orders</p>
+        <button class="btn-redirect"> <a href="Registration.html" class="login-btn">LOGIN / SIGNUP</a> </button>
+        <hr class="hr1">
+        <a href="./ncart.html">Orders</a>
+        <a href="WishList.html">Wishlist</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Avira_Insider <span class="new">New</span></a>
+        <hr class="hr2">
+        <a href="#">Avira Credit</a>
+        <a href="#">Coupons</a>
+        <a href="#">Saved Cards</a>
+        <a href="#">Saved Addresses</a>
+      </div>
+    </div>
+  </div>
+  
+  <div>
+    <a href="WishList.html">
+      <img
+        id="svg"
+        src="https://www.svgrepo.com/show/14970/heart.svg"
+        alt=""
+      />
+    </a>
+  
+    <div>Wishlist</div>
+  </div>
+  
+  <div>
+    <a href="cart.html">
+      <img
+        id="svg"
+        src="https://www.svgrepo.com/show/17522/bag.svg"
+        alt=""
+      />
+    </a>
+  
+    <div>Bag</div>
+    <span id = "cart-count-info">0</span>
+  </div>
+  </div>
+
+  
+
+</header>
+<!-- End Of Nav-Bar -->
+
+    <div class="container">
+      <img
+        width="100%"
+        height="200px"
+        class="login-top-image"
+        src="./reg.png"
+        alt=""
+      />
+      <div class="forms">
+        <!-- Registration Form -->
+        <div class="form signup">
+          <span class="title">Registration</span>
+
+          <form>
+            <div class="input-field">
+              <input type="text" placeholder="Create Username" id="user_name" />
+              <i class="uil uil-user"></i>
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Create Email" id="email" />
+              <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-field">
+              <input
+                type="password"
+                class="password"
+                placeholder="Create password"
+                id="password"
+              />
+              <i class="uil uil-lock icon"></i>
+            </div>
+
+            <div class="input-field button">
+              <input type="button" value="Register Now" class="login_btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let email = document.getElementById("email");
+let password = document.getElementById("password");
+let user_name = document.getElementById("user_name");
+let login_btn = document.querySelector(".login_btn");
+
+login_btn.addEventListener("click", registerData);
+
+function registerData() {
+  if (email.value.length == 0) {
+    alert("please Enter Email");
+  } else if (password.value.length == 0) {
+    alert("please Enter Password");
+  } else if (user_name.value.length == 0) {
+    alert("please Enter User Name");
+  } else {
+    loadData(email.value, password.value, user_name.value);
+  }
+}
+
+async function loadData(email, password, username) {
+  let obj = {
+    email: email,
+    password: password,
+    username: username,
+  };
+
+  console.log(obj);
+  localStorage.setItem("id-details", JSON.stringify(obj));
+  alert("Registration Successfull!");
+  window.location.href = "Login.html";
+  
+  
+}
+
+    </script>
+  </body>
+</html>
