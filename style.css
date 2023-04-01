@@ -162,6 +162,10 @@ body {
     margin: 0;
 }
 
+.login-container a {
+    text-decoration: none;
+    color: white;
+}
 .account {
     font-weight: 900;
     font-size: 1.1rem;
@@ -685,7 +689,7 @@ footer .middle .copy {
     margin-right: 5px;
   }
   footer .middle .flag-icon-us {
-    background-image: url('https://sp-bootstrap.global.ssl.fastly.net/8.0.0/images/flags/us.svg');
+    background-image: url('https://sp-bootstrap.global.ssl.fastly.net/8.0.0/images/flags/in.svg');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -719,5 +723,20 @@ footer .middle .copy {
     color: #999;
     font-size: 10px;
   }
-  
-  
+     /* Medium Screen */
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+   
+        }
+
+
+
+        /* Small Screen */
+      @media only screen and (min-width: 320px) and (max-width: 499px) {
+       .header{
+        display: none;
+       }
+       .sidebar-top{
+        display: none;
+       }
+
+        }
