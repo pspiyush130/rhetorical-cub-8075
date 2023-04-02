@@ -43,5 +43,6 @@ This project might ( and certainly does ) have bugs, vulnerabilities or some oth
 
 ## Tech Stack 💻
 ◮ JavaScript  ◮ HTML5 & CSS3
+
 ![textstc](https://user-images.githubusercontent.com/118152296/229315329-b122a329-bdae-4b4b-a778-93199ccec7c8.png)
 
