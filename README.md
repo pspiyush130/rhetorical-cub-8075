@@ -10,7 +10,7 @@
 ![logo 1](https://user-images.githubusercontent.com/118152296/228675298-09f8a4d1-e835-47cc-9e30-7f8c87ce8676.png)
 
 
-## Deployed link: https://aviraatdor.netlify.app
+## Deployed link: https://atdoor.netlify.app
 # Getting Started
 **AVIRA @ Your DoorStep** is an E-comerce Website inspired by Amazon.com.
 Amazon was founded on July 5, 1994, by Jeff Bezos, who chose the Seattle area for its abundance of technical talent, as Microsoft was in the area.
